@@ -1,0 +1,52 @@
+<<<<<<< HEAD
+﻿<!DOCTYPE html>
+<html>
+<body onload="searchArtist()"> <!--also used to initially load table-->
+<head>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <script src="scripts.js"></script>
+</head>
+    <div class="titleAndSearch">
+        <h2 id = "test" class="artistTitle">
+        Artist Directory
+        </h2>
+        <div class="topnav">
+        <input id = "searchField" class = "topnavTextbox" type="text" placeholder=""></input>
+        <button id = "searchArtistsButton" onclick = "searchArtist()" type = "button">Search</button>
+        <button id = "showArtistFormButton" onclick = "showArtistForm()" type="button">Add Artist</button>
+    </div>
+    <form id = "addArtistForm" method="POST" action = "addNewArtist">
+        <input type="text" class = "artistInput" id = "artistName" name="artistName" value = "" placeholder="Artist Name"></input><br/>
+        <input type="text" class = "artistInput" id = "aboutArtist" name="aboutArtist" value = "" placeholder="About Artist"></input><br/>
+        <input type="text" class = "artistInput" id = "imageURL" name="imageURL" value="" placeholder = "Image URL"></input><br/>
+        <input id = "addArtistButton" type="submit" value = "Add"></input>
+    </form>
+    <table id = "artistTable"></table>
+</body>
+=======
+﻿<!DOCTYPE html>
+<html>
+<body onload="searchArtist()"> <!--also used to initially load table-->
+<head>
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <script src="scripts.js"></script>
+</head>
+    <div class="titleAndSearch">
+        <h2 id = "test" class="artistTitle">
+        Artist Directory
+        </h2>
+        <div class="topnav">
+        <input id = "searchField" class = "topnavTextbox" type="text" placeholder=""></input>
+        <button id = "searchArtistsButton" onclick = "searchArtist()" type = "button">Search</button>
+        <button id = "showArtistFormButton" onclick = "showArtistForm()" type="button">Add Artist</button>
+    </div>
+    <form id = "addArtistForm" method="POST" action = "addNewArtist">
+        <input type="text" class = "artistInput" id = "artistName" name="artistName" value = "" placeholder="Artist Name"></input><br/>
+        <input type="text" class = "artistInput" id = "aboutArtist" name="aboutArtist" value = "" placeholder="About Artist"></input><br/>
+        <input type="text" class = "artistInput" id = "imageURL" name="imageURL" value="" placeholder = "Image URL"></input><br/>
+        <input id = "addArtistButton" type="submit" value = "Add"></input>
+    </form>
+    <table id = "artistTable"></table>
+</body>
+>>>>>>> f7f3015292fef7845dfbe618f7b05d496ca5681a
+</html>
