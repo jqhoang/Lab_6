@@ -71,7 +71,7 @@ async function searchArtist() {
 }
 
 async function loadArtistTable() {
-  await fetch('createArtistsTable/');
+  //await fetch('createArtistsTable/');
   await fetch('getAllArtists/').then((data) => {
     let artistTable = document.getElementById("artistTable");
     let Data = data[0];
