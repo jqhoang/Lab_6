@@ -1,0 +1,29 @@
+{
+  "name": "lab6-jqhoang",
+  "version": "1.0.0",
+  "description": "l6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqhoang/Lab_6.git"
+  },
+  "author": "John Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jqhoang/Lab_6/issues"
+  },
+  "homepage": "https://github.com/jqhoang/Lab_6#readme",
+  "engines": {
+    "node": "v10.16.3",
+    "npm": "6.9.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
